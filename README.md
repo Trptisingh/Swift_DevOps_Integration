@@ -28,15 +28,6 @@ Describe how to install your project, including any dependencies.
 
 7. Overall Efficiency and Scalability: By implementing these DevOps practices, organizations improve overall efficiency, scalability, and reliability of their software delivery processes. Teams can focus more on innovation and less on manual tasks, leading to higher productivity and better alignment with business goals
 
-## Contributing
-
-Explain how people can contribute to your project. Include guidelines for pull requests and code style.
-
-## License
-
-State what the license is for your project.
-
-
 ### Link Steps
 
 - [Step 1](#step-1)
