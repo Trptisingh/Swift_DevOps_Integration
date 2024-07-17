@@ -11,6 +11,7 @@ This project aims to implement a DevOps lifecycle across our organization swiftl
 ## Installation
 
 1. Installing Ansible on Ubuntu:(#https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html#installing-ansible-on-ubuntu)
+2. Installing Jenkins on Ubuntu:(https://www.jenkins.io/doc/book/installing/linux/#debianubuntu)
 
 ## Usage
 
