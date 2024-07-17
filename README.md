@@ -5,7 +5,7 @@ This project aims to implement a DevOps lifecycle across our organization swiftl
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Architecture](#architecture)
 - [License](#license)
 
 ## Installation
