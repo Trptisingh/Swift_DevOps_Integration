@@ -1,4 +1,4 @@
-# Swift_DevOps_Integration: Automating Deployment for Rapid Delivery
+# Swift DevOps Integration: Automating Deployment for Rapid Delivery
 This project aims to implement a DevOps lifecycle across our organization swiftly. It involves provisioning essential software through Ansible, establishing an efficient Git workflow, integrating Jenkins for automated testing and deployment, Dockerizing the application for containerization, and setting up a Jenkins pipeline for seamless CI/CD processes. Additionally, it includes the integration of Prometheus and Grafana for comprehensive monitoring and analytics capabilities.
 
 ## Table of Contents
@@ -54,6 +54,15 @@ Hardware Requirements
 ### Link Steps
 
 - [Step 1](#step-1)
+  1. Launch EC2 Instances
+Master Instance:
+Launch an Ubuntu 22.04 LTS instance (t2.micro).
+Assign a security group allowing inbound traffic on SSH (port 22) for administration.
+Slave Instances (x2):
+Launch two additional Ubuntu 22.04 LTS instances (t2.micro).
+Assign the same security group as the master instance.
+2. Install Ansible on Master Instance
+Connect to the master instance via SSH:
 - [Step 2](#step-2)
 - [Step 3](#step-3)
 
