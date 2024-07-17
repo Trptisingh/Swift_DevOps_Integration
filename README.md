@@ -54,10 +54,10 @@ Hardware Requirements
 ### Link Steps
 
 - [Launch EC2 Instances](#step-1)
-- Master Instance:
+  1. Master Instance:
 Launch an Ubuntu 22.04 LTS instance (t2.micro).
 Assign a security group allowing inbound traffic on SSH (port 22) for administration.
-- Slave Instances (x2):
+  2. Slave Instances (x2):
 Launch two additional Ubuntu 22.04 LTS instances (t2.micro).
 Assign the same security group as the master instance.
 - [Step 2](#step-2)
