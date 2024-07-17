@@ -3,10 +3,22 @@ This project aims to implement a DevOps lifecycle across our organization swiftl
 
 ## Table of Contents
 
+- [Project Requirements](#Project Requirements)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Architecture](#architecture)
 - [License](#license)
+
+## Project Requirements
+Infrastructure Setup:
+1. Operating System: Ubuntu 22.04 LTS 
+2. Instances:
+    - Master Node
+    - Worker Nodes (Slaves)
+Networking Requirements:
+- Communication: Ensure all nodes can communicate with each other over the network.
+- Ports: Open necessary ports(jenkins:8080, SSH, HTTP, HTTPS) as per security best practices.
+
 
 ## Installation
 
