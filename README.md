@@ -24,9 +24,6 @@ Explain how people can contribute to your project. Include guidelines for pull r
 
 State what the license is for your project.
 
-## Additional Sections
-
-You can add additional sections as needed, such as:
 
 ### Link Steps
 
@@ -34,6 +31,3 @@ You can add additional sections as needed, such as:
 - [Step 2](#step-2)
 - [Step 3](#step-3)
 
-### Different Section
-
-Describe this section with relevant details.
