@@ -7,18 +7,25 @@ This project aims to implement a DevOps lifecycle across our organization swiftl
 - [Installation](#installation)
 - [Usage](#usage)
 - [Architecture](#architecture)
-- [License](#license)
 
 ## Project Requirements
 Infrastructure Setup:
 1. Operating System: Ubuntu 22.04 LTS 
 2. Instances:
     - Master Node
-    - Worker Nodes (Slaves)
+    - 2 Worker Nodes (Slaves)
 
 Networking Requirements:
-- Communication: Ensure all nodes can communicate with each other over the network.
-- Ports: Open necessary ports(jenkins:8080, SSH, HTTP, HTTPS) as per security best practices.
+1. Communication: Ensure all nodes can communicate with each other over the network.
+2. Ports: Open necessary ports(jenkins:8080, SSH, HTTP, HTTPS) as per security best practices.
+
+Hardware Requirements
+1. Minimum Configuration(t2.micro):
+   - CPU: 1v
+   - Memory: 1 GiB
+2. Recommended Configuration(t2.medium)
+   - CPU: 2v
+   - Memory: 4 GiB
 
 
 ## Installation
@@ -36,7 +43,7 @@ Networking Requirements:
 
 3. Automated Testing and Deployment: Integrating Jenkins enables automated testing and deployment pipelines. This automation accelerates the release process, improves reliability by detecting issues early in the development cycle, and ensures that deployments are consistent and repeatable.
 
-4. Containerization with Docker: Dockerizing applications allows for efficient deployment and scaling across different environments, from development to production. It provides isolation, simplifies dependency management, and promotes a microservices architecture, enhancing flexibility and resource utilization.
+4. Containerization with Docker: Dockerizing applications allow for efficient deployment and scaling across different environments, from development to production. It provides isolation, simplifies dependency management, and promotes a microservices architecture, enhancing flexibility and resource utilization.
 
 5. CI/CD Pipelines with Jenkins: Setting up Jenkins pipelines for CI/CD streamlines the delivery of software updates. Developers can automatically trigger builds, run tests, and deploy changes to production or staging environments based on predefined workflows. This results in faster time-to-market for new features and bug fixes.
 
