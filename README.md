@@ -56,10 +56,18 @@ Hardware Requirements
 - [Launch EC2 Instances](#step-1)
   1. Master Instance:
 Launch an Ubuntu 22.04 LTS instance (t2.micro).
-Assign a security group allowing inbound traffic on SSH (port 22) for administration.
+Assign a security group allowing inbound traffic on SSH (port 22), HTTP, and HTTPS for administration.
   2. Slave Instances (x2):
 Launch two additional Ubuntu 22.04 LTS instances (t2.micro).
 Assign the same security group as the master instance.
-- [2. Install Ansible on Master Instance](#step-2)
-- [Step 3](#step-3)
+- [Install Ansible on Master Instance](#step-2)
+  Refer the command given in the (Installation) part
+- [Create Ansible Cluster](#step-3)
+- [Create Ansible Playbook for Dependencies](#step-4)
+- [Create Scripts for Master and Slaves](#step-5)
+- [Launch Jenkins Dashboard](#step-6)
+- [Create Dockerfile on GitHub](#step-7)
+- [Configure Jobs through Freestyle Projects](#step-8)
+- [Install Grafana and Prometheus](#step-9)
+- [[Configure Grafana and Prometheus](#step-10)
 
