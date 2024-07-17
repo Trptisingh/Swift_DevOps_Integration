@@ -10,7 +10,7 @@ This project aims to implement a DevOps lifecycle across our organization swiftl
 
 ## Installation
 
-Describe how to install your project, including any dependencies.
+1. Installing Ansible on Ubuntu:(#https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html#installing-ansible-on-ubuntu)
 
 ## Usage
 
