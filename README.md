@@ -49,7 +49,7 @@ Hardware Requirements
 
 6. Monitoring and Analytics with Prometheus and Grafana: Integrating Prometheus for monitoring and Grafana for visualization provides real-time insights into system performance, application metrics, and infrastructure health. This proactive monitoring helps identify issues promptly, optimize resource usage, and ensure high availability of services.
 
-7. Overall Efficiency and Scalability: By implementing these DevOps practices, organizations improve overall efficiency, scalability, and reliability of their software delivery processes. Teams can focus more on innovation and less on manual tasks, leading to higher productivity and better alignment with business goals
+7. Overall Efficiency and Scalability: By implementing these DevOps practices, organizations improve the overall efficiency, scalability, and reliability of their software delivery processes. Teams can focus more on innovation and less on manual tasks, leading to higher productivity and better alignment with business goals
 
 ### Link Steps
 
@@ -61,8 +61,6 @@ Assign a security group allowing inbound traffic on SSH (port 22) for administra
 - Slave Instances (x2):
 Launch two additional Ubuntu 22.04 LTS instances (t2.micro).
 Assign the same security group as the master instance.
-2. Install Ansible on Master Instance
-Connect to the master instance via SSH:
 - [Step 2](#step-2)
 - [Step 3](#step-3)
 
