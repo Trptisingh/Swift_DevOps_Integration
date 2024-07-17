@@ -60,6 +60,6 @@ Assign a security group allowing inbound traffic on SSH (port 22) for administra
   2. Slave Instances (x2):
 Launch two additional Ubuntu 22.04 LTS instances (t2.micro).
 Assign the same security group as the master instance.
-- [Step 2](#step-2)
+- [2. Install Ansible on Master Instance](#step-2)
 - [Step 3](#step-3)
 
