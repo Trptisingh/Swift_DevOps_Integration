@@ -12,8 +12,8 @@ This project aims to implement a DevOps lifecycle across our organization swiftl
 
 1. Installing Ansible on Ubuntu:(https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html#installing-ansible-on-ubuntu)
 2. Installing Jenkins on Ubuntu:(https://www.jenkins.io/doc/book/installing/linux/#debianubuntu)
-3. Installing Java on Ubuntu: sudo apt install openjdk-17-jre
-4. Installing Docker on Ubuntu: sudo apt install docker.io 
+3. Installing Java on Ubuntu: (sudo apt install openjdk-17-jre)
+4. Installing Docker on Ubuntu: (sudo apt install docker.io) 
 
 ## Usage
 
