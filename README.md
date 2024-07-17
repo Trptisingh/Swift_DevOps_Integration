@@ -61,7 +61,7 @@ Assign a security group allowing inbound traffic on SSH (port 22), HTTP, and HTT
 Launch two additional Ubuntu 22.04 LTS instances (t2.micro).
 Assign the same security group as the master instance.
 - [Install Ansible on Master Instance](#step-2)
-  Refer the command given in the (Installation) part
+  Refer the command given in the (#Installation) part
 - [Create Ansible Cluster](#step-3)
 - [Create Ansible Playbook for Dependencies](#step-4)
 - [Create Scripts for Master and Slaves](#step-5)
