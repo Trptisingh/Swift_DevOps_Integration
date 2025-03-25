@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00FF00&center=true&width=800&lines=Swift+DevOps+Integration%3A;Automating+Deployment+for+Rapid+Delivery" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00FF00&center=true&width=800&lines=Swift+DevOps+Integration;Automating+Deployment+for+Rapid+Delivery" />
 </p>
 
 <p align="center">
