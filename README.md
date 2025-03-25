@@ -9,6 +9,15 @@
   <img src="https://img.shields.io/badge/Docker-Containerization-blue?style=for-the-badge&logo=docker" />
   <img src="https://img.shields.io/badge/Monitoring-Grafana-yellow?style=for-the-badge&logo=grafana" />
 </p>
+## 🚀 DevOps Workflow Architecture
+
+```mermaid
+graph TD;
+    A[Develop & Push Code] -->|GitHub/GitLab| B[CI/CD Pipeline - Jenkins];
+    B -->|Automated Testing| C[Build & Package - Docker];
+    C -->|Deploy to Servers| D[Infrastructure Setup - Ansible];
+    D -->|Provisioning & Configuration| E[Application Running];
+    E -->|Monitoring & Logs| F[Prometheus & Grafana];
 
 # Swift DevOps Integration: Automating Deployment for Rapid Delivery
 This project aims to implement a DevOps lifecycle swiftly across our organization. It involves provisioning essential software through Ansible, establishing an efficient Git workflow, integrating Jenkins for automated testing and deployment, Dockerizing the application for containerization, and setting up a Jenkins pipeline for seamless CI/CD processes. Additionally, it includes the integration of Prometheus and Grafana for comprehensive monitoring and analytics capabilities.
