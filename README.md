@@ -40,12 +40,15 @@ This project aims to implement a DevOps lifecycle swiftly across our organizatio
    - Memory: 4 GiB
 
 
-## Installation
+<details>
+  <summary>🔧 Installation Steps (Click to Expand)</summary>
 
-1. Installing Ansible on Ubuntu:[Ansible Commands](https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html#installing-ansible-on-ubuntu)
-2. Installing Jenkins on Ubuntu:[Jenkins Commands](https://www.jenkins.io/doc/book/installing/linux/#debianubuntu)
-3. Installing Java on Ubuntu: `sudo apt install openjdk-17-jre`
-4. Installing Docker on Ubuntu: `sudo apt install docker.io`
+  1. **Install Ansible on Ubuntu:** [Ansible Commands](https://docs.ansible.com/)
+  2. **Install Jenkins on Ubuntu:** [Jenkins Guide](https://www.jenkins.io/)
+  3. **Install Java:** `sudo apt install openjdk-17-jre`
+  4. **Install Docker:** `sudo apt install docker.io`
+  
+</details>
 
 ## Usage
 > [!NOTE]
@@ -273,14 +276,11 @@ This project aims to implement a DevOps lifecycle swiftly across our organizatio
     - Start Prometheus:
       `./prometheus --config.file=prometheus.yml`
     - Access Prometheus UI: Open a web browser and go to http://localhost:9090 to access the Prometheus web interface.
-    
-<details>
-  <summary>🔧 Installation Steps (Click to Expand)</summary>
+## 🎯 Features
 
-  1. **Install Ansible on Ubuntu:** [Ansible Commands](https://docs.ansible.com/)
-  2. **Install Jenkins on Ubuntu:** [Jenkins Guide](https://www.jenkins.io/)
-  3. **Install Java:** `sudo apt install openjdk-17-jre`
-  4. **Install Docker:** `sudo apt install docker.io`
-  
-</details>
+✅ **Automated Infrastructure Provisioning** with Ansible  
+✅ **CI/CD Pipelines** using Jenkins  
+✅ **Dockerized Deployment** for seamless scalability  
+✅ **Real-time Monitoring** with Prometheus & Grafana  
+✅ **Secure & Scalable Architecture**  
 
