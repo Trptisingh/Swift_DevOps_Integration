@@ -274,5 +274,13 @@ This project aims to implement a DevOps lifecycle swiftly across our organizatio
       `./prometheus --config.file=prometheus.yml`
     - Access Prometheus UI: Open a web browser and go to http://localhost:9090 to access the Prometheus web interface.
     
+<details>
+  <summary>🔧 Installation Steps (Click to Expand)</summary>
 
+  1. **Install Ansible on Ubuntu:** [Ansible Commands](https://docs.ansible.com/)
+  2. **Install Jenkins on Ubuntu:** [Jenkins Guide](https://www.jenkins.io/)
+  3. **Install Java:** `sudo apt install openjdk-17-jre`
+  4. **Install Docker:** `sudo apt install docker.io`
+  
+</details>
 
