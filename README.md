@@ -13,6 +13,10 @@
 # Swift DevOps Integration: Automating Deployment for Rapid Delivery
 This project aims to implement a DevOps lifecycle swiftly across our organization. It involves provisioning essential software through Ansible, establishing an efficient Git workflow, integrating Jenkins for automated testing and deployment, Dockerizing the application for containerization, and setting up a Jenkins pipeline for seamless CI/CD processes. Additionally, it includes the integration of Prometheus and Grafana for comprehensive monitoring and analytics capabilities.
 
+# Architecture
+
+<img width="589" height="786" alt="image" src="https://github.com/user-attachments/assets/05365b44-e051-4147-9400-21a92a130b62" />
+
 ## Table of Contents
 
 - [Project Requirements](#Project_Requirements)
