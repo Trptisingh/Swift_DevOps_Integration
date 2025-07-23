@@ -15,7 +15,7 @@ This project aims to implement a DevOps lifecycle swiftly across our organizatio
 
 # Architecture
 
-<img width="589" height="786" alt="image" src="https://github.com/user-attachments/assets/05365b44-e051-4147-9400-21a92a130b62" />
+<img width="785" height="1079" alt="image" src="https://github.com/user-attachments/assets/0428acc0-9b2f-47b7-84ff-a7ec9461e1bc" />
 
 ## Table of Contents
 
